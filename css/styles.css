@@ -46,6 +46,27 @@ a {
 .contacts-link:focus {
   color: #404bbf;
 }
+.page-section1 {
+  background-color: #2e2f42;
+}
+.page-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.page-button {
+  background-color: #4d5ae5;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+.page-button:hover,
+.page-button:focus {
+  background-color: #404bbf;
+  cursor: pointer;
+}
 
 .page-footer {
   background-color: #2e2f42;
