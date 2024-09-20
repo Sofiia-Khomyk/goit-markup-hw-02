@@ -49,6 +49,8 @@ img {
   padding-left: 15px;
   padding-right: 15px;
 }
+/*header*/
+
 .page-header {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -107,6 +109,7 @@ img {
 .contacts-link:focus {
   color: #404bbf;
 }
+/*section 1*/
 .page-section {
   background-color: #2e2f42;
   padding-top: 188px;
@@ -149,8 +152,24 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+/*section 2*/
 .section-page {
   background-color: #f4f4fd;
+}
+.section-paddings {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.characteristics-list {
+  display: flex;
+  gap: 24px;
+}
+.characteristics-item {
+  width: calc((100% - 72px) / 4);
+}
+
+.section-title {
+  margin-bottom: 8px;
 }
 .title-section {
   font-size: 36px;
